@@ -1,0 +1,192 @@
+.status_bar{
+    z-index: 2;
+    position: fixed;
+    font-family: 'Sacramento', cursive;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+h1{
+    font-size: 2.5rem;
+    display: inline-block;
+    margin:0px;
+    position: relative;
+    top: 5%;
+}
+body{
+    background-color: #F6FFDE;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+.status_element{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 65%;
+    bottom: 0;
+    margin:1%;
+}
+/* unvisited link */
+a:link {
+    margin: 1%;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: grey;
+    color:grey;
+  }
+
+hr{
+    width: 3%;
+    border: none;
+    border-top: dotted ;
+    color: grey;
+   
+}
+#profile_pic{
+    margin-top: 90px;
+    top: 200px;
+    left: 100px;
+    
+}
+.profile{
+    text-align: center;
+}
+.footer
+{
+    text-align: center;
+    background-color: grey;
+    margin-bottom: 0;
+}
+p{
+    margin: 0;
+}
+.skills{
+    text-align: center;
+}
+.contact-me{
+    text-align: center;
+}
+ 
+a.status_element:link{
+     color: white;
+     background-color: black;
+     text-decoration: none;
+}
+a.status_element:visited{
+    color: white;
+     background-color: black;
+     text-decoration: none;
+}
+a.status_element:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+a.footer-link:link{
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+a.footer-link:visited{
+   color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+a.footer-link:hover{
+   color: black;
+   background-color: grey;
+   text-decoration: none;
+}
+
+
+.main{
+    margin: 0;
+    margin-left: 1.8%;
+
+}
+a#photo{
+    margin: 0;
+}
+
+.top{
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    top: 10%;
+    height: 700px;
+    width: 100%;
+    background-color: #99627A;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.footer-contact{
+    background-color: grey;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.skills{
+    margin-top: 100px;
+}
+.skill-img-eve{
+    float: left;
+    margin-right: 30px;
+}
+.skill-img-odd{
+    float: right;
+    margin-left: 30px;
+}
+
+
+.about{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: red;
+}
+
+.htop1{
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    right: 6%;
+    display: inline-block;
+    top: 45%;
+    z-index: 1;
+}
+.htop2{
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    display: inline-block;
+    top: 45%;
+    z-index: 1;
+}
+
+.draw{
+    z-index: 0;
+    position: absolute;
+    right: 50px;
+    height: 400px;
+}
